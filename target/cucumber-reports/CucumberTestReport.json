@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User should be able to write in the text box switching iframe",
+        "description": "",
+        "id": "user-write-in-the-iframe-text-box;user-should-be-able-to-write-in-the-text-box-switching-iframe",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user is on the internet Homepage",
+            "match": {
+              "location": "IframeTextPositiveStepDef.the_user_is_on_the_internet_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user click on frames",
+            "match": {
+              "location": "IframeTextPositiveStepDef.user_click_on_frames()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user lands on an frames page \u0026 clicks iframe option",
+            "match": {
+              "location": "IframeTextPositiveStepDef.user_lands_on_an_frames_page_clicks_iframe_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on Format on the top of the editor box and select italic font",
+            "match": {
+              "location": "IframeTextPositiveStepDef.user_clicks_on_Format_on_the_top_of_the_editor_box_and_select_italic_font()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user switch to iframe",
+            "match": {
+              "location": "IframeTextPositiveStepDef.user_switch_to_iframe()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the user able to write “Hello this is Team Titans”",
+            "match": {
+              "location": "IframeTextPositiveStepDef.the_user_able_to_write_Hello_this_is_Team_Titans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user Come back to the parent page",
+            "match": {
+              "location": "IframeTextPositiveStepDef.user_Come_back_to_the_parent_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User write in the Iframe text box",
+    "description": "As a QA I want automate iframe functionalities",
+    "id": "user-write-in-the-iframe-text-box",
+    "keyword": "Feature",
+    "uri": "IframeTextboxPositive.feature"
+  }
+]
