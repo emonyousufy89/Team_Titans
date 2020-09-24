@@ -26,7 +26,6 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-	
 
 	<dependency>
 
@@ -72,7 +71,11 @@
 		<version>7.0.0</version>
 		<optional>true</optional>
 	</dependency>
-
+<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>1.2.4</version>
+		</dependency>
 	<dependency>
 		<groupId>net.masterthought</groupId>
 		<artifactId>cucumber-reporting</artifactId>
@@ -84,15 +87,13 @@
 		<artifactId>extentreports</artifactId>
 		<version>4.0.6</version>
 	</dependency>
-
-	<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+	
 	<dependency>
-		<groupId>net.masterthought</groupId>
-		<artifactId>cucumber-reporting</artifactId>
-		<version>5.0.0</version>
-	</dependency>
-
-	<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+			<groupId>com.vimalselvam</groupId>
+			<artifactId>cucumber-extentsreport</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		
 	<dependency>
 		<groupId>com.jayway.jsonpath</groupId>
 		<artifactId>json-path</artifactId>
