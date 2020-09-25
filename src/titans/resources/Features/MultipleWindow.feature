@@ -2,7 +2,7 @@
 Feature: Multiple Windows
   I want to handle multiple widndows
 
-  @tag1
+  
   Scenario: User should be able to handle multiple windows
     Given User is on interenet homepage
     And User clicks on Multiple Windows

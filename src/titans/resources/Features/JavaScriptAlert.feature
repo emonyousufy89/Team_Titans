@@ -2,7 +2,7 @@
 Feature: JavaScript Alert Handling
   I want to handle three different alert
 
-  @tag1
+  
   Scenario: User should be able to handle all alerts
     Given User is on internet homepage
     And User clicks on JavaScript Alerts

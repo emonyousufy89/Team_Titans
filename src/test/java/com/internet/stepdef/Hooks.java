@@ -1,6 +1,8 @@
 package com.internet.stepdef;
 
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -14,7 +16,7 @@ public class Hooks {
 	
 	public static WebDriver driver;
 	
-	@Before
+	@BeforeMethod
 	public void setup() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");
 		driver = new ChromeDriver();
@@ -23,7 +25,7 @@ public class Hooks {
 		driver.manage().window().maximize();	
 		Thread.sleep(2000);	
 	}
-	@After
+	@AfterMethod
 	public void tearDown() {
 	driver.quit();	
 	}

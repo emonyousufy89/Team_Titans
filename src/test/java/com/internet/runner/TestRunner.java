@@ -3,6 +3,8 @@ package com.internet.runner;
 import java.io.File;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+
 import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
@@ -13,15 +15,15 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		glue = "com.internet.stepdef",
 		monochrome = true,
 		tags = {"~@Ignore"},
-		dryRun = true,
 		plugin = {
                 "pretty", 
                 "html:target/cucumber-reports/cucumber-pretty",
                 "json:target/cucumber-reports/CucumberTestReport.json",
                 "rerun:target/cucumber-reports/rerun.txt"
         })
-
-public class TestRunner extends AbstractTestNGCucumberTests{
+@Test
+public class TestRunner {
+//extends AbstractTestNGCucumberTests{
 	
 	/*private TestNGCucumberRunner testNGCucumberRunner;
 	 
@@ -41,10 +43,10 @@ public class TestRunner extends AbstractTestNGCucumberTests{
     public void tearDownClass() throws Exception {
         testNGCucumberRunner.finish();
 }*/
-	@AfterClass
-	public static void writeExtentReport() {
-		
-		Reporter.loadXMLConfig(new File("config/config.xml"));
-	}
+//	@AfterClass
+//	public static void writeExtentReport() {
+//		
+//		Reporter.loadXMLConfig(new File("config/config.xml"));
+//	}
 
 }

@@ -4,6 +4,109 @@
     "elements": [
       {
         "line": 6,
+        "name": "User should be able to upload file",
+        "description": "",
+        "id": "fil-upload;user-should-be-able-to-upload-file",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User is in internet HomePage",
+            "match": {
+              "location": "FileUploadStepDef.user_is_in_internet_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User clicks on file upload link",
+            "match": {
+              "location": "FileUploadStepDef.user_clicks_on_file_upload_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User click on choose file",
+            "match": {
+              "location": "FileUploadStepDef.user_click_on_choose_file()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User see a windows drop down",
+            "match": {
+              "location": "FileUploadStepDef.user_see_a_windows_drop_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User select the file",
+            "match": {
+              "location": "FileUploadStepDef.user_select_the_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on upload button",
+            "match": {
+              "location": "FileUploadStepDef.user_clicks_on_upload_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User can see \"File uploaded\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "File uploaded",
+                  "offset": 14
+                }
+              ],
+              "location": "FileUploadStepDef.user_can_see(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Fil upload",
+    "description": "I want to upload a from localsystem file",
+    "id": "fil-upload",
+    "keyword": "Feature",
+    "uri": "FileUpload.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
         "name": "User should be able to write in the text box switching iframe",
         "description": "",
         "id": "user-write-in-the-iframe-text-box;user-should-be-able-to-write-in-the-text-box-switching-iframe",
@@ -95,5 +198,244 @@
     "id": "user-write-in-the-iframe-text-box",
     "keyword": "Feature",
     "uri": "IframeTextboxPositive.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User should be able to handle all alerts",
+        "description": "",
+        "id": "javascript-alert-handling;user-should-be-able-to-handle-all-alerts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User is on internet homepage",
+            "match": {
+              "location": "JavaScriptAlertSetpDef.user_is_on_internet_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User clicks on JavaScript Alerts",
+            "match": {
+              "location": "JavaScriptAlertSetpDef.user_clicks_on_JavaScript_Alerts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user lands on alerts page",
+            "match": {
+              "location": "JavaScriptAlertSetpDef.user_lands_on_alerts_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks on JS alert",
+            "match": {
+              "location": "JavaScriptAlertSetpDef.user_clicks_on_JS_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User validate the \"I am a JS Alert\" \u0026 clicks ok",
+            "match": {
+              "arguments": [
+                {
+                  "val": "I am a JS Alert",
+                  "offset": 19
+                }
+              ],
+              "location": "JavaScriptAlertSetpDef.user_validate_the_clicks_ok(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on 2nd alert JS Cofirm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 15
+                }
+              ],
+              "location": "JavaScriptAlertSetpDef.user_clicks_on_nd_alert_JS_Cofirm(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "USer validate \"I am a JS Confirm\" \u0026 clicks cancel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "I am a JS Confirm",
+                  "offset": 15
+                }
+              ],
+              "location": "JavaScriptAlertSetpDef.user_validate_clicks_cancel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User clicks on 3rd alert JS prompt \u0026 write \"Team Titan\" \u0026 clicks ok",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 15
+                },
+                {
+                  "val": "Team Titan",
+                  "offset": 44
+                }
+              ],
+              "location": "JavaScriptAlertSetpDef.user_clicks_on_rd_alert_JS_prompt_write_clicks_ok(int,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "JavaScript Alert Handling",
+    "description": "I want to handle three different alert",
+    "id": "javascript-alert-handling",
+    "keyword": "Feature",
+    "uri": "JavaScriptAlert.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User should be able to handle multiple windows",
+        "description": "",
+        "id": "multiple-windows;user-should-be-able-to-handle-multiple-windows",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User is on interenet homepage",
+            "match": {
+              "location": "MultipleWindowsStepDef.user_is_on_interenet_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User clicks on Multiple Windows",
+            "match": {
+              "location": "MultipleWindowsStepDef.user_clicks_on_Multiple_Windows()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User validate the parent window page",
+            "match": {
+              "location": "MultipleWindowsStepDef.user_validate_the_parent_window_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User clicks on the click here button",
+            "match": {
+              "location": "MultipleWindowsStepDef.user_clicks_on_the_click_here_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User switch to new wondow",
+            "match": {
+              "location": "MultipleWindowsStepDef.user_switch_to_new_wondow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User validate the child window page title",
+            "match": {
+              "location": "MultipleWindowsStepDef.user_validate_the_child_window_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User switch back to the parent window",
+            "match": {
+              "location": "MultipleWindowsStepDef.user_switch_back_to_the_parent_window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Multiple Windows",
+    "description": "I want to handle multiple widndows",
+    "id": "multiple-windows",
+    "keyword": "Feature",
+    "uri": "MultipleWindow.feature"
   }
 ]
