@@ -3,16 +3,116 @@
     "line": 2,
     "elements": [
       {
-        "line": 6,
-        "name": "User should be able to upload file",
+        "before": [
+          {
+            "result": {
+              "duration": 9227804209,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User can drag and drop",
         "description": "",
-        "id": "fil-upload;user-should-be-able-to-upload-file",
+        "id": "user-can-drag-and-drop;user-can-drag-and-drop",
+        "after": [
+          {
+            "result": {
+              "duration": 102334587,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 274529278,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to http://the-internet.herokuapp.com",
+            "match": {
+              "location": "DragNDropStepDef.user_navigate_to_http_the_internet_herokuapp_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1824861,
+              "error_message": "java.lang.NullPointerException\n\tat com.internet.stepdef.DragNDropStepDef.user_clicks_on_Drag_and_Drop(DragNDropStepDef.java:21)\n\tat ✽.Then user clicks on Drag and Drop(DragNDrop.feature:8)\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user clicks on Drag and Drop",
+            "match": {
+              "location": "DragNDropStepDef.user_clicks_on_Drag_and_Drop()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User can drag and drop",
+    "description": "",
+    "id": "user-can-drag-and-drop",
+    "keyword": "Feature",
+    "uri": "DragNDrop.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@theinternetdraganddrop"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4945090309,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to upload file",
+        "description": "",
+        "id": "fil-upload;user-should-be-able-to-upload-file",
+        "after": [
+          {
+            "result": {
+              "duration": 121288840,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47128952,
+              "status": "passed"
             },
             "line": 7,
             "name": "User is in internet HomePage",
@@ -23,7 +123,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2357477651,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on file upload link",
@@ -34,7 +135,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2070900398,
+              "status": "passed"
             },
             "line": 9,
             "name": "User click on choose file",
@@ -45,7 +147,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 127544,
+              "status": "passed"
             },
             "line": 10,
             "name": "User see a windows drop down",
@@ -56,7 +159,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72762,
+              "status": "passed"
             },
             "line": 11,
             "name": "User select the file",
@@ -67,7 +171,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2281095927,
+              "status": "passed"
             },
             "line": 12,
             "name": "User clicks on upload button",
@@ -78,7 +183,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2043032733,
+              "status": "passed"
             },
             "line": 13,
             "name": "User can see \"File uploaded\"",
@@ -106,16 +212,39 @@
     "line": 2,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 4618074828,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
         "line": 6,
         "name": "User should be able to write in the text box switching iframe",
         "description": "",
         "id": "user-write-in-the-iframe-text-box;user-should-be-able-to-write-in-the-text-box-switching-iframe",
+        "after": [
+          {
+            "result": {
+              "duration": 179373420,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5110693,
+              "status": "passed"
             },
             "line": 7,
             "name": "the user is on the internet Homepage",
@@ -126,7 +255,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2232294531,
+              "status": "passed"
             },
             "line": 8,
             "name": "user click on frames",
@@ -137,7 +267,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2635683157,
+              "status": "passed"
             },
             "line": 9,
             "name": "user lands on an frames page \u0026 clicks iframe option",
@@ -148,7 +279,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4251256328,
+              "status": "passed"
             },
             "line": 10,
             "name": "user clicks on Format on the top of the editor box and select italic font",
@@ -159,7 +291,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2048891225,
+              "status": "passed"
             },
             "line": 11,
             "name": "user switch to iframe",
@@ -170,7 +303,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8357911150,
+              "status": "passed"
             },
             "line": 12,
             "name": "the user able to write “Hello this is Team Titans”",
@@ -181,7 +315,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6313996,
+              "status": "passed"
             },
             "line": 13,
             "name": "user Come back to the parent page",
@@ -203,16 +338,39 @@
     "line": 2,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 5386103527,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
         "line": 6,
         "name": "User should be able to handle all alerts",
         "description": "",
         "id": "javascript-alert-handling;user-should-be-able-to-handle-all-alerts",
+        "after": [
+          {
+            "result": {
+              "duration": 168059884,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5688117,
+              "status": "passed"
             },
             "line": 7,
             "name": "User is on internet homepage",
@@ -223,7 +381,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2238644167,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on JavaScript Alerts",
@@ -234,7 +393,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 59140,
+              "status": "passed"
             },
             "line": 9,
             "name": "user lands on alerts page",
@@ -245,7 +405,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2092826841,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on JS alert",
@@ -256,7 +417,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4018577222,
+              "status": "passed"
             },
             "line": 11,
             "name": "User validate the \"I am a JS Alert\" \u0026 clicks ok",
@@ -273,7 +435,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2077371107,
+              "status": "passed"
             },
             "line": 12,
             "name": "User clicks on 2nd alert JS Cofirm",
@@ -290,7 +453,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4016936032,
+              "status": "passed"
             },
             "line": 13,
             "name": "USer validate \"I am a JS Confirm\" \u0026 clicks cancel",
@@ -307,7 +471,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4113744171,
+              "status": "passed"
             },
             "line": 14,
             "name": "User clicks on 3rd alert JS prompt \u0026 write \"Team Titan\" \u0026 clicks ok",
@@ -326,12 +491,6 @@
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@tag1"
-          }
         ]
       }
     ],
@@ -345,16 +504,39 @@
     "line": 2,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 4781765880,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
         "line": 6,
         "name": "User should be able to handle multiple windows",
         "description": "",
         "id": "multiple-windows;user-should-be-able-to-handle-multiple-windows",
+        "after": [
+          {
+            "result": {
+              "duration": 131876773,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2026298533,
+              "status": "passed"
             },
             "line": 7,
             "name": "User is on interenet homepage",
@@ -365,7 +547,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2274436448,
+              "status": "passed"
             },
             "line": 8,
             "name": "User clicks on Multiple Windows",
@@ -376,7 +559,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2010128649,
+              "status": "passed"
             },
             "line": 9,
             "name": "User validate the parent window page",
@@ -387,7 +571,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2203310645,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks on the click here button",
@@ -398,7 +583,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2023646058,
+              "status": "passed"
             },
             "line": 11,
             "name": "User switch to new wondow",
@@ -409,7 +595,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2019466591,
+              "status": "passed"
             },
             "line": 12,
             "name": "User validate the child window page title",
@@ -420,7 +607,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4065011951,
+              "status": "passed"
             },
             "line": 13,
             "name": "User switch back to the parent window",

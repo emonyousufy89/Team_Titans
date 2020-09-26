@@ -16,7 +16,7 @@ public class Hooks {
 	
 	public static WebDriver driver;
 	
-	@BeforeMethod
+	@Before
 	public void setup() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");
 		driver = new ChromeDriver();
@@ -25,9 +25,9 @@ public class Hooks {
 		driver.manage().window().maximize();	
 		Thread.sleep(2000);	
 	}
-	@AfterMethod
+	@After
 	public void tearDown() {
-	driver.quit();	
+	driver.quit();
 	}
 
 }

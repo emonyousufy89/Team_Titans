@@ -3,11 +3,15 @@ package com.internet.runner;
 import java.io.File;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.cucumber.listener.Reporter;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
+import cucumber.api.testng.CucumberFeatureWrapper;
+import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
 		
@@ -23,9 +27,10 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         })
 @Test
 public class TestRunner {
-//extends AbstractTestNGCucumberTests{
+	//extends AbstractTestNGCucumberTests{
+
 	
-	/*private TestNGCucumberRunner testNGCucumberRunner;
+	private TestNGCucumberRunner testNGCucumberRunner;
 	 
     @BeforeClass(alwaysRun = true)
     public void setUpClass() throws Exception {
@@ -42,11 +47,11 @@ public class TestRunner {
     @AfterClass(alwaysRun = true)
     public void tearDownClass() throws Exception {
         testNGCucumberRunner.finish();
-}*/
-//	@AfterClass
-//	public static void writeExtentReport() {
-//		
-//		Reporter.loadXMLConfig(new File("config/config.xml"));
-//	}
+    }
 
+	/*@AfterClass
+	public static void writeExtentReport() {
+		
+		Reporter.loadXMLConfig(new File("config/config.xml"));	}*/
 }
+

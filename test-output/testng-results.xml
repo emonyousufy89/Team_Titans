@@ -1,11 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19" started-at="2020-09-24T21:06:45 EDT" finished-at="2020-09-24T21:06:45 EDT">
+  <suite name="Titan_Test" duration-ms="91436" started-at="2020-09-26T00:11:34 EDT" finished-at="2020-09-26T00:13:05 EDT">
     <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@3b088d51]" name="feature" class="com.internet.runner.TestRunner"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="19" started-at="2020-09-24T21:06:45 EDT" finished-at="2020-09-24T21:06:45 EDT">
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    <test name="Team_Titan" duration-ms="91436" started-at="2020-09-26T00:11:34 EDT" finished-at="2020-09-26T00:13:05 EDT">
+      <class name="com.internet.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.internet.runner.TestRunner@3b088d51]" name="setUpClass" is-config="true" duration-ms="425" started-at="2020-09-26T00:11:34 EDT" finished-at="2020-09-26T00:11:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@3b088d51]" name="feature" duration-ms="17733" started-at="2020-09-26T00:11:35 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T00:11:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fil upload]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@3b088d51]" name="feature" duration-ms="25380" started-at="2020-09-26T00:11:52 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T00:12:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User write in the Iframe text box]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@3b088d51]" name="feature" duration-ms="24349" started-at="2020-09-26T00:12:18 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T00:12:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JavaScript Alert Handling]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@3b088d51]" name="feature" duration-ms="22887" started-at="2020-09-26T00:12:42 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T00:13:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Multiple Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.internet.runner.TestRunner@3b088d51]" name="tearDownClass" is-config="true" duration-ms="64" started-at="2020-09-26T00:13:05 EDT" finished-at="2020-09-26T00:13:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.internet.runner.TestRunner -->
+    </test> <!-- Team_Titan -->
+  </suite> <!-- Titan_Test -->
 </testng-results>
