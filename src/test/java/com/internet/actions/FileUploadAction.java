@@ -30,6 +30,7 @@ public class FileUploadAction {
 	public void SuccessfullTextVerify() throws InterruptedException {
 
 		pages.SuccessfullMessage.getText();
+		System.out.println("test");
 		Thread.sleep(2000);
 	}
 }
