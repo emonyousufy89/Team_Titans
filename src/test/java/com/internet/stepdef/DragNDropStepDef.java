@@ -15,8 +15,8 @@ public class DragNDropStepDef {
 	public void user_is_on_internet_homepage() throws Throwable {
 	    System.out.println("HomePage");
 	}
-	@When("^user clicks on Drag and Drop$")
-	public void user_clicks_on_Drag_and_Drop() throws Throwable {
+	@When("^user clicks on drag & drop$")
+	public void user_clicks_on_drag_drop() throws Throwable {
 		DragandDropActionsObj.ClickDragandDrop();
 	}
 	

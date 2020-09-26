@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Titan_Test" duration-ms="94679" started-at="2020-09-26T09:38:24 EDT" finished-at="2020-09-26T09:39:59 EDT">
+  <suite name="Titan_Test" duration-ms="118526" started-at="2020-09-26T15:07:07 EDT" finished-at="2020-09-26T15:09:06 EDT">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" class="com.internet.runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Team_Titan" duration-ms="94679" started-at="2020-09-26T09:38:24 EDT" finished-at="2020-09-26T09:39:59 EDT">
+    <test name="Team_Titan" duration-ms="118526" started-at="2020-09-26T15:07:07 EDT" finished-at="2020-09-26T15:09:06 EDT">
       <class name="com.internet.runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="setUpClass" is-config="true" duration-ms="411" started-at="2020-09-26T09:38:24 EDT" finished-at="2020-09-26T09:38:25 EDT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="setUpClass" is-config="true" duration-ms="356" started-at="2020-09-26T15:07:08 EDT" finished-at="2020-09-26T15:07:08 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="9669" started-at="2020-09-26T09:38:25 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T09:38:34 EDT">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="7690" started-at="2020-09-26T15:07:08 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T15:07:16 EDT">
           <params>
             <param index="0">
               <value>
@@ -54,15 +54,15 @@ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:114
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.NullPointerException
-at com.internet.stepdef.DragNDropStepDef.user_clicks_on_Drag_and_Drop(DragNDropStepDef.java:21)
-at ✽.Then user clicks on Drag and Drop(DragNDrop.feature:8)
+at com.internet.stepdef.DragNDropStepDef.user_clicks_on_drag_drop(DragNDropStepDef.java:20)
+at ✽.When user clicks on drag & drop(DragNDrop.feature:7)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="13895" started-at="2020-09-26T09:38:34 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T09:38:48 EDT">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="13374" started-at="2020-09-26T15:07:16 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T15:07:29 EDT">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@ at ✽.Then user clicks on Drag and Drop(DragNDrop.feature:8)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="24359" started-at="2020-09-26T09:38:48 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T09:39:13 EDT">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="24348" started-at="2020-09-26T15:07:29 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T15:07:54 EDT">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@ at ✽.Then user clicks on Drag and Drop(DragNDrop.feature:8)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="24160" started-at="2020-09-26T09:39:13 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T09:39:37 EDT">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="23789" started-at="2020-09-26T15:07:54 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T15:08:17 EDT">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@ at ✽.Then user clicks on Drag and Drop(DragNDrop.feature:8)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="21566" started-at="2020-09-26T09:39:37 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T09:39:58 EDT">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="21163" started-at="2020-09-26T15:08:17 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T15:08:39 EDT">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,29 @@ at ✽.Then user clicks on Drag and Drop(DragNDrop.feature:8)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="tearDownClass" is-config="true" duration-ms="24" started-at="2020-09-26T09:39:58 EDT" finished-at="2020-09-26T09:39:59 EDT">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="15140" started-at="2020-09-26T15:08:39 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T15:08:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Status Code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="feature" duration-ms="12113" started-at="2020-09-26T15:08:54 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-26T15:09:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Herokapp Forget Password Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.internet.runner.TestRunner@5f341870]" name="tearDownClass" is-config="true" duration-ms="18" started-at="2020-09-26T15:09:06 EDT" finished-at="2020-09-26T15:09:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

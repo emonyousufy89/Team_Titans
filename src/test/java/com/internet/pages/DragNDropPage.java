@@ -6,13 +6,13 @@ import org.openqa.selenium.support.How;
 
 public class DragNDropPage {
 
-	@FindBy(how=How.CSS,using= "a[href='/drag_and_drop']")
+	@FindBy (how=How.XPATH,using= "//a[@href='/drag_and_drop']")
 	public WebElement DragandDrop;
 	
-	@FindBy(how=How.ID,using= "column-a")
+	@FindBy (how=How.XPATH,using= "//div[@id='column-a']")
 	public WebElement DragA;
 	
-	@FindBy(how=How.ID,using= "column-b")
+	@FindBy (how=How.XPATH,using= "//div[@id='column-b']")
 	public WebElement DropB;
 
 }

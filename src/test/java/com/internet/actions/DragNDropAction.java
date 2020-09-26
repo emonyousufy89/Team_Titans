@@ -7,26 +7,25 @@ import com.internet.stepdef.Hooks;
 
 public class DragNDropAction {
 
-	DragNDropPage TheInternetHomePage; 
+	DragNDropPage dragndropPage; 
 
 	public DragNDropAction() {
-		TheInternetHomePage= new DragNDropPage();
-		PageFactory.initElements(Hooks.driver, TheInternetHomePage);
+		dragndropPage= new DragNDropPage();
+		PageFactory.initElements(Hooks.driver, dragndropPage);
 
 	}
 
 
 	public void  ClickDragandDrop() throws InterruptedException{
-	TheInternetHomePage.DragandDrop.click();
-	Thread.sleep(2000);
+		dragndropPage.DragandDrop.click();
+		Thread.sleep(2000);
 
 	}
 	public void dragAdropB() {
-	//WebElement source = Hooks.driver.findElement(By.id("column-a"));
-	//WebElement destination = Hooks.driver.findElement(By.id("column-b"));
-	Actions a = new Actions(Hooks.driver);
-	a.dragAndDrop(TheInternetHomePage.DragA, TheInternetHomePage.DropB).build().perform();
+
+		Actions a = new Actions(Hooks.driver);
+		a.dragAndDrop(dragndropPage.DragA, dragndropPage.DropB).build().perform();
 
 	}
-	
+
 }
